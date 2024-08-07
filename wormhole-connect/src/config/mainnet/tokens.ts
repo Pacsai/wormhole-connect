@@ -2802,4 +2802,41 @@ export const MAINNET_TOKENS: TokensConfig = {
       default: 8,
     },
   },
+  Dogeverse: {
+    key: 'Dogeverse',
+    symbol: 'Dogeverse',
+    nativeChain: 'ETH',
+    tokenId: {
+      chain: 'ETH',
+      address: '0x62F03b52c377FeA3EB71D451a95ad86C818755D1',
+    },
+    icon: ico.Dogeverse,
+    coinGeckoId: 'dogeverse',
+    color: '#E6DAFE',
+    decimals: {
+      default: 18,
+    },
+       bsc: {
+        address: '0xc6c58f600917De512CD02D2B6ED595Ab54B4c30F',
+        decimals: 18,
+      },
+      base: {
+        address: '0x004aA1586011F3454f487Eac8d0D5c647D646C69',
+        decimals: 18,
+      },
+      avalanche: {
+        address: '0x7A221b57a6E2F0738Dd0fF34bC985b73f8a5cf14',
+        decimals: 18,
+      },
+      polygon: {
+        address: '0x38022a157B95C52D43AbCAc9bd09f028A1079105',
+        decimals: 18,
+      },
+      Solana: {
+        address: '8Rts7ENfY6GE9WcsmeF4XkoTyCscgrfXrmTBn18w2Tz8',
+        decimals: 8,
+    
+      },
+    },
+  },
 };
